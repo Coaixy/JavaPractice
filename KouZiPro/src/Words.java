@@ -19,7 +19,7 @@ public class Words {
         try {
             String temp;
             while ((temp = reader.readLine()) != null){
-                sbf.append(temp);
+                sbf.append(temp+"\n");
             }
         } catch (IOException e) {
             e.printStackTrace();
