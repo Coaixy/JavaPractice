@@ -1,0 +1,19 @@
+name: y2020
+main: pw.yjxzx.fy2020.fy2020
+version: 1.0.0
+commands:
+  getfy:
+    description: "获取最新的肺炎数据"
+    usage: /getfy
+    permission: fy2020.getfy
+    permission-message: "你没有使用此命令的权限"
+  setfy:
+    description: "设置定时时间"
+    usage: /setfy <time>
+    permission: fy2020.setfy
+    permission-message: "你没有使用此命令的权限"
+  openfy:
+    description: "是否开启肺炎定时"
+    usage: /openfy true/false
+    permission: fy2020.openfy
+    permission-message: "你没有使用此命令的权限"

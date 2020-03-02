@@ -1,0 +1,2 @@
+open: false #true/false 对应是否实时播报
+time: 10  #单位秒 定时发送最新肺炎数据
